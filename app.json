@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "CoffeeFinderApp",
+    "slug": "CoffeeFinderApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#003B40"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shreesha.venkatram.CoffeeFinderApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#003B40"
+      },
+      "package": "com.shreesha.venkatram.CoffeeFinderApp"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5daa49a1-1394-440a-9198-d49d577f34ef"
+      }
+    }
+  }
+}
